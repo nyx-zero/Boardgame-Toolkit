@@ -1,10 +1,15 @@
-=Insert for "It's a Wonderful World"=
+Insert for "It's a Wonderful World"
+===================================
+
 https://boardgamegeek.com/boardgame/271324/its-wonderful-world
 
-==Warning==
+Warning
+-------
+
 These instructions will spoil some components for the Leisure and Decadence expansion.
 
-==Printing Instructions==
+Printing Instructions
+---------------------
 
  * Print 2x ww_card_tray
    * One at 3 slots
