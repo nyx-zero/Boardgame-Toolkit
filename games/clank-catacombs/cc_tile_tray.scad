@@ -2,6 +2,9 @@
 
 use <../../boardgame_tk.scad>
 
-dim = 100 + default_padding();
+thk = 2;
 
-tray_notched([dim, dim, std_card_dim().x + 0.8], thickness=2);
+dim_xy = 100 + default_padding();
+dim_z = 69.4 - thk;
+
+tray_notched([dim_xy, dim_xy, dim_z], thickness=thk);
