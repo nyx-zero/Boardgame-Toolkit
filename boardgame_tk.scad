@@ -1,14 +1,10 @@
 // Copyright 2023 Joshua Star, All Rights Reserved
 
 include <internal/base.scad>
-
 include <internal/card.scad>
 include <internal/math.scad>
 include <internal/prim.scad>
 include <internal/tray.scad>
-
-DEFAULT_PADDING = 1.6;
-DEFAULT_THICKNESS = 1.2;
 
 function default_padding() = DEFAULT_PADDING;
 function default_thickness() = DEFAULT_THICKNESS;

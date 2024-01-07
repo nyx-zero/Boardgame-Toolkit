@@ -1,8 +1,7 @@
 // Copyright 2023 Joshua Star, All Rights Reserved
 
 include <base.scad>
-
-use <prim.scad>
+include <prim.scad>
 
 module tray_basic(inner_size, r=0, thickness=DEFAULT_THICKNESS, bottom_thickness=undef) {
 
