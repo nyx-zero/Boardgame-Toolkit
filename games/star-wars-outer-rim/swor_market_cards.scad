@@ -2,6 +2,6 @@
 
 use <../../boardgame_tk.scad>
 
-depth = calc_card_stack(20);
+depth = calc_card_stack(25);
 
-card_display(std_card_dim(), depth, 3);
+card_display(amer_card_dim(), depth, 3);
