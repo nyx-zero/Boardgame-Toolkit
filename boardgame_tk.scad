@@ -2,10 +2,10 @@
 
 include <internal/base.scad>
 
-use <internal/card.scad>
-use <internal/math.scad>
-use <internal/prim.scad>
-use <internal/tray.scad>
+include <internal/card.scad>
+include <internal/math.scad>
+include <internal/prim.scad>
+include <internal/tray.scad>
 
 DEFAULT_PADDING = 1.6;
 DEFAULT_THICKNESS = 1.2;
@@ -173,7 +173,7 @@ module peg_board(rows=1, cols=1, radius=1, height=1, spacing=1) {
 
 //vertical_cutter([100,50, 10], r=10);
 
-card_tray(std_card_dim(), [30, 30, 8, 8, 8, 16, 42], num_columns=4, div_height=55);
+//card_tray(std_card_dim(), [30, 30, 8, 8, 8, 16, 42], num_columns=4, div_height=55);
 
 //spacer([240, 120, 10], r=16, div_x=4, div_y=3, spacing=8);
 
