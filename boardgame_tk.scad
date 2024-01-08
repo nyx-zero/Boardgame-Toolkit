@@ -1,18 +1,11 @@
 // Copyright 2023 Joshua Star, All Rights Reserved
 
 include <internal/base.scad>
+include <internal/boxes.scad>
 include <internal/card.scad>
 include <internal/math.scad>
 include <internal/prim.scad>
 include <internal/tray.scad>
-
-function default_padding() = DEFAULT_PADDING;
-function default_thickness() = DEFAULT_THICKNESS;
-
-function gamebox_common() = [286, 286, 68]; // Terraforming Mars, Wingspan
-
-function make_list(v, n) = [for(i=[0:n-1]) v];
-function sum_list(v) = [for(p=v) 1] * v;
 
 module card_display(card_size, height, num_stacks, padding=DEFAULT_PADDING, thickness=DEFAULT_THICKNESS, bottom_thickness=undef, div_thickness=undef) {
 
@@ -162,8 +155,6 @@ module peg_board(rows=1, cols=1, radius=1, height=1, spacing=1) {
 }
 
 // --- TESTING ---
-
-//%cube(gamebox_common());
 
 //card_display(mini_euro_card_dim(), 30, 3);
 

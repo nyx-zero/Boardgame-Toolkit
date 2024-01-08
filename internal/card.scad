@@ -16,3 +16,4 @@ function tarot_card_dim() = [73, 122] + TOLERANCE_MAX; // orange
 function per_card_thickness() = 0.68;
 
 function calc_card_stack(n, padding=1.2) = n * per_card_thickness() + padding;
+function calc_card_count(d, padding=1.2) = (d - padding) / per_card_thickness();
